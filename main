@@ -28,10 +28,10 @@ int main()
                 aff_add(); 
                 scanf("%d", &choix_2);
                 if(choix_2 == 1){
-                    add();
+                    add(); break;
                 } 
                 else if(choix_2 == 2){
-                    suite_add();
+                    suite_add(); break;
                 }
                 else{
                     printf(" Erreur: choix doit etre comprit entre 1 et 2.\n");
@@ -41,10 +41,10 @@ int main()
                 aff_mult(); 
                 scanf("%d", &choix_2);
                 if(choix_2 == 1){
-                    add();
+                    mult(); break;
                 } 
                 else if(choix_2 == 2){
-                    suite_add();
+                    tabmult(); break;
                 }
                 else{
                     printf(" Erreur: choix doit etre comprit entre 1 et 2.\n");
