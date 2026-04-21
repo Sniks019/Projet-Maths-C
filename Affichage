@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void menu()
+    {
+        printf(" +------------------------------------+\n");
+        printf(" | 1 : Addition                       |\n");
+        printf(" | 2 : Soustraction                   |\n");
+        printf(" | 3 : Multiplication                 |\n");
+        printf(" | 4 : Divisions                      |\n");
+        printf(" | 0 : Sortir du jeu                  |\n");
+        printf(" +------------------------------------+\n");
+        printf(" Quel est votre choix ? ");
+    }
+
+
+
+void aff_mult()
+{
+    printf(" +------------------------------------+\n");
+    printf(" | 1 : Multiplication                 |\n");
+    printf(" | 2 : Tables des multiplications     |\n");
+    printf(" +------------------------------------+\n");
+    printf(" Quel est votre choix ? ");
+}
+
+
+
+void aff_add()
+{
+    printf(" +------------------------------------+\n");
+    printf(" | 1 : Addition                       |\n");
+    printf(" | 2 : Suites d'Additions             |\n");
+    printf(" +------------------------------------+\n");
+    printf(" Quel est votre choix ? ");
+}
